@@ -1,0 +1,151 @@
+@font-face {
+	font-family: 'Avenir';
+	src: url('fonts/Avenir-Light.eot');
+	src: url('fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Avenir-Light.woff') format('woff'),
+		url('fonts/Avenir-Light.ttf')  format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('fonts/Futura-Medium.eot');
+	src: url('fonts/Futura-Medium.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Futura-Medium.woff') format('woff'),
+		url('fonts/Futura-Medium.ttf')  format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('fonts/AvenirNext-Bold.eot');
+	src: url('fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvenirNext-Bold.woff') format('woff'),
+		url('fonts/AvenirNext-Bold.ttf')  format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+	font-family: "Avenir";
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+	height: 150px;
+	background-color: #333;
+}
+
+h1 {
+	text-align: center;
+	color: white; 
+	font-size: 120px;
+	margin-top: 0px;
+	letter-spacing: -.06em;
+	font-family: "Avenir Next";
+}
+
+h2 {
+	font-family: "Futura";
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	letter-spacing: .37em;
+}
+
+h3 {
+	font-size: 35px;
+	color: #c80909;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+h4 {
+	text-align: center;
+	color: white; 
+}
+
+
+.navigation {
+	width: 25%;
+	height: 2010px;
+	float: left;
+	background-color: #333;
+	margin-top: 1px;
+}
+
+
+.body {
+	width: calc(50% - 2px);
+	height: 2010px;
+	float: left;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+}
+
+p {
+	margin-left: 30px;
+}
+
+.item {
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.panel {
+	width: 25%;
+	height: 2010px;
+	float: right;
+	background-color: #333;
+	margin-top: 1px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 50px;
+}
+
+.menu {
+	border: none;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.button-text{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+}
+
+.button {
+	border: 1px solid white;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+	background: #c80909;
+	border-color: #c80909;;
+}
+
+.button:hover a {
+	color: white;
+}
+
+.footer {
+	height: 100px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 1px;
+	background-color: #333;
+	color: white;
+}
